@@ -27,7 +27,27 @@ body, html {
   margin-bottom: 30px;
 }
 
-.key1 {
+#greenB {
+  background: green;
+}
+
+#redB {
+  background: red;
+}
+
+#yellowB {
+  background: yellow;
+}
+
+#blueB {
+  background: blue;
+}
+
+#orangeB {
+  background: orange;
+}
+
+.key {
   border: .4em solid white;
   border-radius: 5em;
   margin: 1.2em;
@@ -38,62 +58,6 @@ body, html {
   text-align: center;
   color: white;
   background: green;
-  text-shadow: 0 0 .5em black;
-}
-
-.key2 {
-  border: .4em solid white;
-  border-radius: 5em;
-  margin: 1.2em;
-  font-size: 1.5em;
-  padding: 2.5em .8em;
-  -webkit-transition: all .07s ease;
-  transition: all .07s ease;
-  text-align: center;
-  color: white;
-  background: red;
-  text-shadow: 0 0 .5em black;
-}
-
-.key3 {
-  border: .4em solid white;
-  border-radius: 5em;
-  margin: 1.2em;
-  font-size: 1.5em;
-  padding: 2.5em .8em;
-  -webkit-transition: all .07s ease;
-  transition: all .07s ease;
-  text-align: center;
-  color: white;
-  background: yellow;
-  text-shadow: 0 0 .5em black;
-}
-
-.key4 {
-  border: .4em solid white;
-  border-radius: 5em;
-  margin: 1.2em;
-  font-size: 1.5em;
-  padding: 2.5em .8em;
-  -webkit-transition: all .07s ease;
-  transition: all .07s ease;
-  text-align: center;
-  color: white;
-  background: blue;
-  text-shadow: 0 0 .5em black;
-}
-
-.key5 {
-  border: .4em solid white;
-  border-radius: 5em;
-  margin: 1.2em;
-  font-size: 1.5em;
-  padding: 2.5em .8em;
-  -webkit-transition: all .07s ease;
-  transition: all .07s ease;
-  text-align: center;
-  color: white;
-  background: orange;
   text-shadow: 0 0 .5em black;
 }
 
@@ -114,6 +78,6 @@ kbd {
   font-size: .6em;
   text-transform: uppercase;
   letter-spacing: .2em;
-  color: sandybrown;
+  color: #3a3131;
 }
 /*# sourceMappingURL=main.css.map */
