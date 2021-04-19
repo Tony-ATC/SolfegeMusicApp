@@ -1,0 +1,103 @@
+html{
+    font-size: 10px;
+    background: url('../img/Guitar\ Hero\ 3-\ Wallpaper.jpg') bottom center;
+    background-size: cover;
+}
+
+body, html{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.key1{
+    border: .4em solid white;
+    border-radius: 5em;
+    margin: 1.2em;
+    font-size: 1.5em;
+    padding: 2.5em .8em;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: green;
+    text-shadow: 0 0 .5em black;
+}
+
+.key2{
+    border: .4em solid white;
+    border-radius: 5em;
+    margin: 1.2em;
+    font-size: 1.5em;
+    padding: 2.5em .8em;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: red;
+    text-shadow: 0 0 .5em black;
+}
+
+.key3{
+    border: .4em solid white;
+    border-radius: 5em;
+    margin: 1.2em;
+    font-size: 1.5em;
+    padding: 2.5em .8em;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: yellow;
+    text-shadow: 0 0 .5em black;
+}
+
+.key4{
+    border: .4em solid white;
+    border-radius: 5em;
+    margin: 1.2em;
+    font-size: 1.5em;
+    padding: 2.5em .8em;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: blue;
+    text-shadow: 0 0 .5em black;
+}
+.key5{
+    border: .4em solid white;
+    border-radius: 5em;
+    margin: 1.2em;
+    font-size: 1.5em;
+    padding: 2.5em .8em;
+    transition: all .07s ease;
+    text-align: center;
+    color: white;
+    background: orange;
+    text-shadow: 0 0 .5em black;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: sandybrown;
+    box-shadow: 0 0 1em sandybrown;
+}
+
+kbd{
+    display:inline;
+    font-size: 1em;
+}
+
+.sound{
+    font-size: .6em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: sandybrown;
+}

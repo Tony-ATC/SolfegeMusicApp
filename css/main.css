@@ -1,1 +1,119 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+html {
+  font-size: 10px;
+  background: url("../img/Guitar Hero 3- Wallpaper.jpg") bottom center;
+  background-size: cover;
+}
+
+body, html {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-height: 100vh;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.key1 {
+  border: .4em solid white;
+  border-radius: 5em;
+  margin: 1.2em;
+  font-size: 1.5em;
+  padding: 2.5em .8em;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  background: green;
+  text-shadow: 0 0 .5em black;
+}
+
+.key2 {
+  border: .4em solid white;
+  border-radius: 5em;
+  margin: 1.2em;
+  font-size: 1.5em;
+  padding: 2.5em .8em;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  background: red;
+  text-shadow: 0 0 .5em black;
+}
+
+.key3 {
+  border: .4em solid white;
+  border-radius: 5em;
+  margin: 1.2em;
+  font-size: 1.5em;
+  padding: 2.5em .8em;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  background: yellow;
+  text-shadow: 0 0 .5em black;
+}
+
+.key4 {
+  border: .4em solid white;
+  border-radius: 5em;
+  margin: 1.2em;
+  font-size: 1.5em;
+  padding: 2.5em .8em;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  background: blue;
+  text-shadow: 0 0 .5em black;
+}
+
+.key5 {
+  border: .4em solid white;
+  border-radius: 5em;
+  margin: 1.2em;
+  font-size: 1.5em;
+  padding: 2.5em .8em;
+  -webkit-transition: all .07s ease;
+  transition: all .07s ease;
+  text-align: center;
+  color: white;
+  background: orange;
+  text-shadow: 0 0 .5em black;
+}
+
+.playing {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-color: sandybrown;
+  -webkit-box-shadow: 0 0 1em sandybrown;
+          box-shadow: 0 0 1em sandybrown;
+}
+
+kbd {
+  display: inline;
+  font-size: 1em;
+}
+
+.sound {
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: sandybrown;
+}
+/*# sourceMappingURL=main.css.map */
